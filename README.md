@@ -6,7 +6,7 @@ Self-Driving Car Engineer Nanodegree Program
 PID Controller Project Reflections
 ==================================
 
-![PID](Media/Image1.png)
+![PID](Media/PID_Car.gif)
 
 Contents
 --------
@@ -97,9 +97,6 @@ the coefficients. I did investigate other approaches to automatically
 determine the coefficients of the two PID controllers.
 
 
-<video width="720" controls>
-  <source src="Media/PID_video.mp4" type="video/mp4">
-</video>
 
 
 ---
