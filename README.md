@@ -39,17 +39,17 @@ The overall control function can be expressed mathematically as
 
 **Coefficients**
 
--   $K_{p}$: is the proportional gain, a tuning parameter. The
+-   Kp: is the proportional gain, a tuning parameter. The
     proportional term produces an output value that is proportional to
     the current error value. It is responsible for the Direction and
     magnitude of the correction.
 
--   $K_{i}$: is the integral gain, a tuning parameter. The contribution
+-   Ki: is the integral gain, a tuning parameter. The contribution
     from the integral term is proportional to both the magnitude of the
     error and the duration of the error. It is therefore responsible for
     the elimination of the residual steady-state error.
 
--   $K_{d}$: s the derivative gain, a tuning parameter. The derivative
+-   Kd: is the derivative gain, a tuning parameter. The derivative
     component is responsible for increasing the stabilization of the
     system, damping the oscillation.
 
@@ -97,7 +97,9 @@ the coefficients. I did investigate other approaches to automatically
 determine the coefficients of the two PID controllers.
 
 
-
+<video width="720" controls>
+  <source src="Media/PID_video.mp4" type="video/mp4">
+</video>
 
 
 ---
