@@ -8,6 +8,8 @@ PID Controller Project Reflections
 
 ![PID](Media/PID_Car.gif)
 
+[A video showing the car on a full track can be downloaded here](Media/PID_video.mp4)
+
 Contents
 --------
 
