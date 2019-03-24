@@ -35,7 +35,7 @@ correction based on proportional, integral, and derivative terms
 
 The overall control function can be expressed mathematically as
 
-![PID](Media/PID.png)
+![PID](Media/PID.png){:height="50%" width="50%"}
 
 
 
