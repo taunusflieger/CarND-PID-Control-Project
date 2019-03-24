@@ -1,18 +1,15 @@
 #ifndef PID_H
 #define PID_H
 
-class PID {
- public:
+class PID
+{
+public:
   /**
    * PID Coefficients
-   */ 
+   */
   double Kp;
   double Ki;
   double Kd;
-
-
-  // For twiddle - number of updates received
-  int update_cnt;
 
   /**
    * Constructor
@@ -36,34 +33,15 @@ class PID {
    */
   void UpdateError(double cte);
 
-  /**
-   * Calculate the total PID error.
-   * @output The total PID error
-   */
-  double TotalError();
-
-  void Twiddle();
-
   double Output();
 
- private:
+private:
   /**
    * PID Errors
    */
   double p_error;
   double i_error;
   double d_error;
-
- 
-
-
-  double best_error;
-  double total_error;
-
-  double dp_p, dp_i, dp_d;
-  int count_threshold;
-  int coeff_idx;
-  bool increment;
 };
 
-#endif  // PID_H
+#endif // PID_H
